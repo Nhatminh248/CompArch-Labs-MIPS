@@ -1,16 +1,23 @@
 # Computer Architecture Lab - MIPS (MARS)
 
-## Overview
-This repository contains code and assignments for the **Computer Architecture Lab** course. The focus of this lab is on **MIPS assembly programming** using the **MARS (MIPS Assembler and Runtime Simulator)** environment.
+## Introduction
 
-## Setup
-To work with the code in this repository, follow these steps:
+This report presents the results of Lab 2, which focused on:
 
-1. **Download MARS**  
-   - Get the latest version of MARS from: [MARS Official Site](http://courses.missouristate.edu/KenVollmar/MARS/)
-   - Ensure you have **Java installed** to run MARS.
-2. **Run MARS**
-To run the MARS we can use the command line:
-```java
-java -jar MARS.jar your_program.asm
-```
+- Implementing conditional branch and jump instructions in MIPS assembly.
+
+- Writing and calling procedures.
+
+- Using recursion in MIPS program.
+.
+### The exercises involved writing programs for:
+
+1. Character Frequency Counting: Counting occurrences of each character in a string and sorting the output.
+
+2. GCD and LCM Calculation: Computing the greatest common divisor (GCD) and least common multiple (LCM) using recursion.
+
+3. Finding the Second Largest Element in an Array: Identifying the second largest value and its positions in a user-provided array.
+
+Additionally, user input was validated by handling input as a string and ensuring only valid values were processed before performing calculations.
+
+For further clarification, refer the comments in the source code.
