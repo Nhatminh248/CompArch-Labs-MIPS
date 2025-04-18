@@ -26,13 +26,13 @@ Compute $\Delta = b^2 - 4ac$ using floating-point operations (`mul.s`, `sub.s`).
 4. **Solution Determination:**
    - If $\Delta < 0$, output *"no real solution."*
    - If $\Delta = 0$, compute single solution:  
-     $$
+     $
      x = \frac{-b}{2a}
-     $$
+     $
    - If $\Delta > 0$, compute two solutions:  
-     $$
+     $
      x_1 = \frac{-b + \sqrt{\Delta}}{2a}, \quad x_2 = \frac{-b - \sqrt{\Delta}}{2a}
-     $$
+     $
 
 **Output:**  
 Print appropriate messages and solutions using system calls (`li $v0, 4` for strings, `li $v0, 2` for floats).
@@ -41,9 +41,9 @@ Print appropriate messages and solutions using system calls (`li $v0, 4` for str
 
 ### Exercise 2: Integral Calculation (`Ex2_Lab3.asm`)
 **Objective:** Compute the definite integral  
-$$
+$
 f(x) = \int_v^u \frac{ax^6 + bx^5 + cx}{d^4 + e^3} \, dx
-$$  
+$  
 where $u$, $v$, $a$, $b$, $c$, $d$, and $e$ are user-provided floating-point numbers.
 
 **Algorithm:**
