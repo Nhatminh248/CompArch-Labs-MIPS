@@ -14,3 +14,5 @@ To run the MARS we can use the command line:
 ```java
 java -jar MARS.jar your_program.asm
 ```
+## Source code
+To checkout the source code of each lab, please choose the branch with the corresponding name.
